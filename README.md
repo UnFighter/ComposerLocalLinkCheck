@@ -1,6 +1,8 @@
 # Пакет для проверки погоды в городах России
 
-Вот такие дела
+## Вот такие дела
 Тут вот документация:
-- [Russian] (docs/ru.md)
-- [English] (docs/en.md)
+- [Russian](docs/ru.md)
+- [English](docs/en.md)
+
+MIT
