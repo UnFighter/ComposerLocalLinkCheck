@@ -1,11 +1,17 @@
 {
-  "name": "mashalov/data-package",
-  "description": "Пакет для работы с датами",
-  "version": "1.0.0",
-  "type": "library",
-  "autoload": {
-    "psr-4": {
-      "Data\\": "src/"
-    }
-  }
+    "name": "mashalov/rickandmorty",
+    "description": "Package about characters from Rick and Morty",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mashalov\\Rickandmorty\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "m-mashalov",
+            "email": "maimashalov@gmail.com"
+        }
+    ],
+    "require": {}
 }
