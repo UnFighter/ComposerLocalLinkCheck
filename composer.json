@@ -1,10 +1,10 @@
 {
-    "name": "mashalov/rickandmorty",
-    "description": "Package about characters from Rick and Morty",
-    "license": "MIT",
+    "name": "mashalov/rick_and_morty",
+    "description": "Package to work with API of characters from Rick&Morty",
+    "type": "library",
     "autoload": {
         "psr-4": {
-            "Mashalov\\Rickandmorty\\": "src/"
+            "Mashalov\\RickAndMorty\\": "src/"
         }
     },
     "authors": [
@@ -13,5 +13,10 @@
             "email": "maimashalov@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.9",
+        "larapack/dd": "^1.1",
+        "pragmarx/ia-arr": "^7.3"
+    }
 }

@@ -1,9 +1,22 @@
 <?php
+require 'vendor/autoload.php';
 
-require './vendor/autoload.php';
+use Mashalov\RickAndMorty\Character;
 
-use Mashalov\Rickandmorty\Character;
+$rickAndMorty = new Character();
+$rickAndMorty = $rickAndMorty
+    ->charactersName('rick')
+    ->get()
+    //->getCount();
+    ->getPages();
 
-$character = new Character('1');
+dd($rickAndMorty);
 
-$character->id ('1')->get();
+/*foreach ($characters as $character) {
+    echo $character['name'] . "\n";
+    echo $character['status'] . "\n";
+    echo $character['species'] . "\n";
+    echo $character['type'] . "\n";
+    echo $character['gender'] . "\n";
+    echo "\n";
+}*/
